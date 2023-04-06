@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 130 | HTML Form - Quiz Activity</title>
+  <link rel="stylesheet" href="styles/quiz.css">
+  <meta name="author" content="Dalton Broderson">
+</head>
+<body>
+<header>
+  <h1>WDD 130 | Dalton Broderson | HTML Form - Quiz Activity</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            <legend>Basic HTML and CSS Quiz</legend>
+            <label for="q1">What does the acronym HTML stand for?</label>
+            <textarea name="q1" id="q1" rows="1"></textarea>
+            <label for="q2">What is the purpose of a CSS stylesheet if you can use CSS styling within an HTML document?</label>
+            <textarea name="q2" id="q2" rows="4"></textarea>
+            <label for="q3">Please select the proper way to link a file in folder that is up one directory in HTML:</label>
+            <select name="q3" id="q3">
+                <option value="" selected disabled>Choose One...</option>
+                <option value="option1">..\example-folder\example-file</option>
+                <option value="option2">./example-folder/example-file</option>
+                <option value="option3">../example-folder/example-file</option>
+            </select>
+            <label for="q4">What year was CSS introduced?</label>
+            <input type="number" name="q4" id="q4">
+        </fieldset>
+        <button type="submit">Submit Quiz</button>
+      </form>
+  </main>
+<footer>
+  <p>HTML Form - Quiz Activity | Dalton Broderson</p>
+</footer>
+</body>
+</html>
