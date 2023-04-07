@@ -278,3 +278,16 @@ tfoot {
 .trip-description img {
   max-width: 350px;
 }
+
+.home-img img {
+  max-width: 700px;
+}
+
+.home-additional-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.home-additional-info img {
+  width: 300px;
+}
