@@ -256,3 +256,25 @@ button:hover {
   max-width: 150px;
   height: auto;
 }
+
+.contact-us-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+table,
+td {
+  font-family: var(--paragraph-font);
+  padding: 5px;
+}
+
+thead,
+tfoot {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-family: var(--heading-font);
+}
+
+.trip-description img {
+  max-width: 350px;
+}
