@@ -121,8 +121,6 @@ figure img {
   max-width: 210%;
 }
 
-/* Class Selectors */
-
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -165,4 +163,91 @@ figure img {
 .history-p2 {
   grid-column: 4/6;
   grid-row: 1/2;
+}
+
+.com-info {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  padding-top: 10px;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.com-info iframe {
+  width: 250px;
+  height: 250px;
+}
+
+.contact-form {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 0.5rem;
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,0.2);
+  padding: 1rem;
+}
+
+legend {
+  padding: 0.5rem;
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+label, input, button, select, textarea {
+  font-family: var(--paragraph-font);
+}
+
+label {
+  text-align: left;
+  padding-right: 1rem;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+button {
+  background: var(--primary-color);
+  color: #fff;
+  font-size: large;
+  padding: 1rem;
+  width: 500px;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.team-members img {
+  max-width: 150px;
+  height: auto;
 }
